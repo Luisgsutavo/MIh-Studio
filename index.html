@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mih Meneses</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="topp">
+            <div class="logo-area">
+                <img src="logo.png" class="logo" alt="Logo Mih Meneses">
+                <h1>Mih Meneses</h1>
+                <p>Bem-vinda ao seu momento de beleza</p>
+            </div>
+        </div>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contatos">Contatos</a>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Meu nome é Michaelle Meneses, tenho 31 anos e sou apaixonada por cuidar das unhas e realçar a beleza de cada cliente. Com dedicação e atenção aos detalhes, ofereço serviços de manicure e pedicure que combinam técnica e criatividade.</p>
+    </section>
+
+    <section id="servicos">
+        <h2>Tabela de Valores</h2>
+        <p><em>Cuidar das unhas é mais do que estética, é autoestima.</em></p>
+        <br>
+        
+        <div class="servicos-lista">
+            <div class="servico">
+                <input type="checkbox" id="s1" value="60">
+                <label for="s1">Tratamento podal <span>R$ 60,00</span></label>
+            </div>
+
+            <div class="servico">
+                <input type="checkbox" id="s2" value="25">
+                <label for="s2">Esmaltação pé e mão <span>R$ 25,00</span></label>
+            </div>
+
+            <div class="servico">
+                <input type="checkbox" id="s3" value="50">
+                <label for="s3">Pé e mão <span>R$ 50,00</span></label>
+            </div>
+
+            <div class="servico">
+                <input type="checkbox" id="s4" value="30">
+                <label for="s4">Pé <span>R$ 30,00</span></label>
+            </div>
+
+            <div class="servico">
+                <input type="checkbox" id="s5" value="30">
+                <label for="s5">Mão <span>R$ 30,00</span></label>
+            </div>
+
+            <div class="servico">
+                <input type="checkbox" id="s7" value="30">
+                <label for="s7">Postiça <span>R$ 30,00</span></label>
+            </div>
+
+            <div class="servico">
+                <input type="checkbox" id="s6" value="3">
+                <label for="s6">Decoração <span>R$ 3,00</span></label>
+            </div>
+
+            <div class="servico">
+                <input type="checkbox" id="s8" value="1">
+                <label for="s8">Adesivo Decorativo (o Par) <span>R$ 1,00</span></label>
+            </div>
+
+            <h3>Pacotes Mensais</h3>
+
+            <div class="servico">
+                <input type="checkbox" id="p1" value="220">
+                <label for="p1">4 Mãos + 2 Tratamentos <span>R$ 220,00</span></label>
+            </div>
+
+            <div class="servico">
+                <input type="checkbox" id="p2" value="220">
+                <label for="p2">4 Pés + 4 Mãos <span>R$ 220,00</span></label>
+            </div>
+
+            <div class="servico">
+                <input type="checkbox" id="p3" value="160">
+                <label for="p3">4 mãos + 2 pés <span>R$ 160,00</span></label>
+            </div>
+
+            <div class="servico">
+                <input type="checkbox" id="p4" value="100">
+                <label for="p4">4 Mãos ou 4 Pés <span>R$ 100,00</span></label>
+            </div>
+        </div>
+
+        <div class="total">
+            Total: <span id="valorTotal">R$ 0,00</span>
+        </div>
+
+        <form id="formAgendamento">
+            <input type="text" id="nome" placeholder="Seu nome" required>
+            <input type="tel" id="telefone" placeholder="Telefone (ex: 16999999999)" required>
+            <input type="datetime-local" id="data" required>
+            <button type="submit">Agendar pelo WhatsApp</button>
+        </form>
+    </section>
+
+    <section>
+        <h4>💅 Galeria de Trabalhos</h4>
+        <div class="galeria-container">
+            <img src="img/unha mõas.png" alt="Unhas decoradas">
+            <img src="img/unha.png" alt="Unhas decoradas">
+            <img src="img/mão.png" alt="Unhas decoradas">
+            <img src="img/pe.png" alt="Unhas decoradas">
+        </div>
+        <div class="sobre-texto">
+            <h3>✨ Especialista em Unhas</h3>
+            <p>Manicure e Pedicure Tradicional: Cutilagem cuidadosa e acabamento impecável.</p>
+        </div>
+    </section>
+
+    <section id="contatos">
+        <h2>Contatos & Localização</h2>
+        <p>📱 Telefone: (16) 99755-0845</p>
+        <p>📧 Email: michaelle49913001@gmail.com</p>
+        <p>📍 Rua Coelho Netto, 132 casa 2 - Campos Elíseos, Ribeirão Preto</p>
+        
+        <div class="horarios-info">
+            <h3>Horário de Atendimento</h3>
+            <p>Seg, Qui e Sex: 08h às 19h</p>
+            <p>Ter e Qua: 13h às 19h</p>
+            <p>Sábado: 08h às 19h</p>
+            <p>Dom e Feriados: 08h às 14h</p>
+        </div>
+    </section>
+
+    <section id="pagamento">
+        <h2>Formas de Pagamento</h2>
+        <div class="pagamentos">
+            <div class="pagamento-card">
+                <h3>Pix</h3>
+                <img src="PIX.png" alt="Pix" style="width: 80px;">
+            </div>
+            <div class="pagamento-card">
+                <h3>💳 Cartão</h3>
+                <div class="bandeiras">
+                    <img src="Visa.png" alt="Visa">
+                    <img src="MasterCard.png" alt="Mastercard">
+                </div>
+                <p>Crédito e Débito</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Mih Meneses. Todos os direitos reservados.</p>
+    </footer>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+        import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyCmSkEoFD9MXHh7UbrNmbYPeH5YQqQG01A",
+            authDomain: "mih-studio.firebaseapp.com",
+            projectId: "mih-studio",
+            storageBucket: "mih-studio.firebasestorage.app",
+            messagingSenderId: "705825737076",
+            appId: "1:705825737076:web:2bf34b8e9da24160c90421"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const db = getFirestore(app);
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const form = document.getElementById("formAgendamento");
+            const totalElement = document.getElementById("valorTotal");
+
+            function calcularTotal() {
+                let total = 0;
+                document.querySelectorAll('.servico input:checked').forEach(item => {
+                    total += parseFloat(item.value);
+                });
+                totalElement.textContent = "R$ " + total.toFixed(2).replace('.', ',');
+                return total;
+            }
+
+            document.querySelectorAll('.servico input').forEach(cb => {
+                cb.addEventListener("change", calcularTotal);
+            });
+
+            form.addEventListener("submit", async function(e) {
+                e.preventDefault();
+
+                const nome = document.getElementById("nome").value.trim();
+                const telefone = document.getElementById("telefone").value.trim();
+                const dataRaw = document.getElementById("data").value;
+
+                if (!dataRaw) {
+                    alert("Por favor, selecione data e horário.");
+                    return;
+                }
+
+                // Formatação amigável da data
+                const dataObjeto = new Date(dataRaw);
+                const dataFormatada = dataObjeto.toLocaleDateString('pt-BR') + ' às ' + dataObjeto.toLocaleTimeString('pt-BR', {hour: '2-digit', minute:'2-digit'});
+
+                let servicosNomes = [];
+                let total = 0;
+
+                document.querySelectorAll('.servico input:checked').forEach(item => {
+                    const label = document.querySelector(`label[for="${item.id}"]`).innerText;
+                    servicosNomes.push(label.split('R$')[0].trim());
+                    total += parseFloat(item.value);
+                });
+
+                if (servicosNomes.length === 0) {
+                    alert("Selecione pelo menos um serviço!");
+                    return;
+                }
+
+                try {
+                    await addDoc(collection(db, "agendamentos"), {
+                        nome, telefone, data: dataRaw, procedimentos: servicosNomes, total, criadoEm: new Date()
+                    });
+                } catch (error) {
+                    console.error("Erro ao salvar no banco:", error);
+                }
+
+                // Montagem da mensagem para WhatsApp
+                const mensagem = 
+`✨ *Novo Agendamento - Mih Meneses* ✨
+━━━━━━━━━━━━━━━━━━
+👤 *Cliente:* ${nome}
+📞 *Contato:* ${telefone}
+📅 *Data/Hora:* ${dataFormatada}
+
+📋 *Serviços Selecionados:*
+${servicosNomes.map(s => "• " + s).join('\n')}
+
+💰 *Total:* R$ ${total.toFixed(2).replace('.', ',')}
+━━━━━━━━━━━━━━━━━━
+_Enviado pelo site_`;
+
+                const url = `https://wa.me/5516997550845?text=${encodeURIComponent(mensagem)}`;
+                
+                alert("Agendamento concluído! Abrindo seu WhatsApp... 💖");
+                window.open(url, "_blank");
+                
+                form.reset();
+                calcularTotal();
+            });
+        });
+    </script>
+</body>
+</html>
